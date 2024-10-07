@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!--    <form action="/action">
+        <label>
+            username
+            <input type="text"placeholder="enter username" name="user"/>
+        </label>
+
+        <br>
+        <label for="password"></label>
+        password<input type="password" placeholder="enter password" id="password" name="pass"/>
+        <br>
+        number<input type="number"/>
+        <br>
+        time<input type="time"/>
+        <br>
+        color<input type="color"/>
+        <br>
+       - <button>submit</button>
+        <button type="submit">submit</button>
+        <button type="button">button</button>
+        <button type="reset">reset</button>
+        <input type="button"value="click me"/>
+        <input type="submit"value="click"/>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results?">
+        <input type="text" placeholder="search in youtube" name="search_query"/>
+        <input type="submit"value="search"/>
+    </form>
+    
+</body>
+</html>-->
+<form action="https://www.google.com/search?">
+
+    <input type="text"placeholder="search in google" name="q"/>
+    <input type="submit"value="search"/>
+    <input type="checkbox"id="age"name="age" checked/>
+    <label for="age">iam 18+</label>
+</form>
+<hr>
+<form action="/action">
+    <p>which of the following fruit is red in colour</p>
+    <input type="radio" name="fruit"id="mango"value="mango"/>
+    <label for="mango">mango</label>
+    <br>
+    <input type="radio" name="fruit"id="banana"value="banana"/>
+    <label for="banana">banana</label>
+    <br>
+    <input type="radio" name="fruit"id="apple"value="apple"/>
+    <label for="apple">apple</label>
+    <br>
+    <button>submit</button>
+    <div>
+        <p>choose any two of the following  subjects</p>
+        <br>
+        <input type="checkbox"id="maths"name="subjects" value="maths"/>
+        <label for="maths">maths</label>
+        <br>
+        <input type="checkbox" id="science"name="subjects"value="sci"/>
+        <label for="science">science</label>
+        <br>
+        <input type="checkbox" id="english"name="subjects" value="eng"/>
+        <label for="english">english</label>
+        <br>
+        <button>submit</button>
+
+    </div>
+    <hr>
+    <div>
+        <h3>choose your profession</h3>
+        <select  name="profession"id="profession">
+            <option>select your profession</option>
+
+            <option value="student">student</option>
+            <option value="professor">professor</option>
+            <option value="developer">developer</option>
+
+        </select>
+        <br>  
+        <button>submit</button>
+    </div>
+    <hr>
+    <label for="volume"> select your volume level</label>
+    <input type="range"id="volume"name="volume"min="0"max="100" step="10" value="70"/>
+    <button>submit</button>
+    <br>
+    <label for="feedback">please give your valuabe feedback</label>
+    <textarea id="feedback"name="feedfack"  placeholder="write your feedback here"rows="10"col="10"></textarea>
+    <button>submit</button>
+</form>
+    
+</body>
+</html>
